@@ -1,8 +1,0 @@
-  System.out.println("Please the first num : ");
-        int x = input.nextInt();
-        System.out.println("Please the sec num : ");
-        int y = input.nextInt();
-        try {
-            System.out.println(x / y);
-        }catch(Exception e) {
-            System.out.println("cant divide " + e.getMessage());
